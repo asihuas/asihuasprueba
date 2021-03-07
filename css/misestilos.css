@@ -23,6 +23,7 @@ body{
   align-items: center;
   background-color: #f7f7f7 !important;
   box-shadow: none !important;
+  
 }
 .box_main.dos{
   min-height: 360px;
@@ -79,6 +80,13 @@ body{
   background-color: #fff !important;
   box-shadow: none !important;
 }
+.zoom{
+  transition: width 2s, height 2s, transform 2s;
+}
+.zoom:hover{
+  background-color: #010a4480 !important;
+  transform : scale(2);
+}
 .nombre{
   color: #010A44;
   font-size: 25px;
@@ -88,6 +96,7 @@ body{
   height: 400px;
   background-image: url("../images/banner-producto/parallax/banner.png");  
   background-size: cover;
+  background-attachment: fixed;
 }
 .footer_section.layout_padding{
   background-color: #010A44 !important;
