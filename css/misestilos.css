@@ -1,0 +1,113 @@
+body{
+  background: #fff !important;
+}
+.col-sm-8.imagen img {
+  display: block;
+  margin: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: auto;
+  margin-bottom: 200px;
+  background: none !important;
+}
+.servicios{
+  background-color: rgba(243, 154, 139, 0.15);
+}
+.fashion_section{
+  background-color: #fff !important;
+}
+.box_main{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee !important;
+  box-shadow: none !important;
+}
+.box_main.dos{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/banner-producto/productos/bg-rew.png");
+  background-size: cover;
+  box-shadow: none !important;
+}
+.box_main.tres{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(243, 154, 139, 0.15);
+  box-shadow: none !important;
+}
+.box_main.cuatro{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/banner-producto/productos/bg-st.png");
+  background-size: cover;
+  box-shadow: none !important;
+}
+.box_main.cinco{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/banner-producto/productos/bg-st-2.png");
+  background-size: cover;
+  box-shadow: none !important;
+}
+.box_main.seis{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/banner-producto/productos/bg-st-3.png");
+  background-size: cover;
+  box-shadow: none !important;
+}
+.box_main.siete{
+  max-height: 384px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/banner-producto/productos/susccribe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: none !important;
+}
+.box_main.ocho{
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+.nombre{
+  color: #010A44;
+  font-size: 25px;
+  font-weight: bold;
+}
+.fashion_section.parallax{
+  height: 400px;
+  background-image: url("../images/banner-producto/parallax/banner.png");  
+  background-size: cover;
+}
+.footer_section.layout_padding{
+  background-color: #010A44 !important;
+}
+.banner_contenido{
+  display: block;
+  margin-top: 280px;
+ 
+}
+.copyright_section{
+  background-color: #010A44 !important;
+}
+@media only screen and (max-width: 576px) {
+  .banner-texto {
+    text-align: center !important;
+  }
+  .banner-texto a{
+    margin-bottom: 10px;
+  }
+  .imagen-card{
+    margin-bottom: 40px !important;
+  }
+}
