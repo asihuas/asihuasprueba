@@ -21,7 +21,7 @@ body{
   min-height: 360px;
   display: flex;
   align-items: center;
-  background-color: #eeeeee !important;
+  background-color: #f7f7f7 !important;
   box-shadow: none !important;
 }
 .box_main.dos{
